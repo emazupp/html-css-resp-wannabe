@@ -140,7 +140,10 @@ img {
     gap: 50px;
     align-items: center;
   }
-  .lessons .col {
+  .lessons .col,
+  .steps .col,
+  .why-us .col-left,
+  .why-us .col-right {
     width: 80%;
   }
 }
