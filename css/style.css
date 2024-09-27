@@ -128,11 +128,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
-}
+} */
+/* 
+non serve se già gestiamo sotto i 1160px, con il bonus, 
+gestiamo automaticamente anche sotto i 768px fino ai 481px 
+*/
 
 @media screen and (max-width: 480px) {
   .row {
